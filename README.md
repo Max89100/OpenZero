@@ -15,6 +15,7 @@ L’application JavaFX permet de :
 - [Java 17+](https://adoptium.net/)
 - [Maven 3.6+](https://maven.apache.org/)
 - Un environnement JavaFX fonctionnel (JavaFX est géré automatiquement via Maven)
+- 📥 [Télécharger OpenZero5.zip](https://github.com/Max89100/OpenZero/blob/model-files/models/OpenZero5.zip)
 
 ### 🏁 Étapes de démarrage
 
@@ -23,9 +24,8 @@ L’application JavaFX permet de :
 git clone https://github.com/Max89100/OpenZero.git
 cd OpenZero
 
-# 2. Récupérez le modèle OpenZero5.zip
-# Téléchargez le depuis la branche model-files
-# Et placez le dans le dossier /resources comme indiqué dans l'arborescence ci-dessous
+# 2. Récupérez le modèle OpenZero5.zip puis placez-le dans :
+src/main/resources/OpenZero5.zip
 
 # 3. Compilez le projet
 mvn clean install
