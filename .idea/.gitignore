@@ -1,0 +1,55 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# IDEs
+## IntelliJ
+.idea/
+*.iml
+out/
+
+## Eclipse
+.project
+.classpath
+.settings/
+
+## VS Code
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.tmp
+*.swp
+
+# Model files (ex: OpenZero5.zip)
+*.zip
+
+# Test reports or result archives
+*.csv
+*.json
+*.txt
+
+# Gradle (au cas où)
+.gradle/
+build/
+
+# Mac-specific
+.AppleDouble
+.LSOverride
+
+# Windows-specific
+ehthumbs.db
+Icon?
+desktop.ini
