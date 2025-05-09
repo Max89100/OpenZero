@@ -24,8 +24,8 @@ git clone https://github.com/Max89100/OpenZero.git
 cd OpenZero
 
 # 2. Récupérez le modèle OpenZero5.zip
-Téléchargez le depuis la branche model-files
-Et placez le dans le dossier /resources comme indiqué dans l'arborescence ci-dessous
+# Téléchargez le depuis la branche model-files
+# Et placez le dans le dossier /resources comme indiqué dans l'arborescence ci-dessous
 
 # 3. Compilez le projet
 mvn clean install
@@ -43,14 +43,14 @@ OpenZero/
 │       │       ├── gui/         # Interface JavaFX
 │       │       ├── MCTS/        # Arbre de recherche Monte Carlo
 │       │       ├── nn/          # Réseau de neurones
-│       │       ├── pipeline/    # Traitement/évaluation
+│       │       ├── pipeline/    # Nécessaire pour l'entraînement
 │       │       └── utils/       # Fonctions utilitaires
 │       └── resources/
 │           ├── pieces/          # Pièces d’échecs (.png)
-│           ├── sounds/          # Sons du jeu (optionnel)
+│           ├── sounds/          # Sons du jeu (pas implémenté)
 │           ├── style/           # CSS (dark-theme.css)
 │           ├── OpenZero.png     # Logo de l'application
-│           └── OpenZero5.zip    # Modèle CNN (à ignorer dans main)
+│           └── OpenZero5.zip    # Modèle CNN 
 ├── DatasetMaker.py              # Script Python d'entraînement
 ├── target/                      # Répertoire Maven (à ignorer)
 ├── bot_battle_results.txt       # Logs de parties entre bots
