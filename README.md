@@ -15,7 +15,7 @@ L’application JavaFX permet de :
 - [Java 17+](https://adoptium.net/)
 - [Maven 3.6+](https://maven.apache.org/)
 - Un environnement JavaFX fonctionnel (JavaFX est géré automatiquement via Maven)
-- 📥 [Télécharger OpenZero5.zip](https://github.com/Max89100/OpenZero/blob/model-files/models/OpenZero5.zip)
+- 📥 [Télécharger OpenZero5.zip](https://github.com/Max89100/OpenZero/blob/clean-model-files/models/OpenZero5.zip)
 
 ### 🏁 Étapes de démarrage
 
